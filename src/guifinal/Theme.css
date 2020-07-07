@@ -1,0 +1,54 @@
+*{
+dark-primary-color    : #0288D1; 
+default-primary-color : #03A9F4; 
+light-primary-color   : #B3E5FC; 
+text-primary-color    : #FFFFFF; 
+accent-color          : #d9d9d9; 
+primary-text-color    : #212121; 
+secondary-text-color  : #757575; 
+divider-color         : #BDBDBD; 
+fondo-color           : #0377FC;
+
+
+}
+
+.root{
+    -fx-background-color: accent-color;
+}
+
+.button{
+    -fx-font: 18px "Perpetua";
+    -fx-text-fill: text-primary-color;
+    -fx-padding: 5;
+    -fx-background-color: dark-primary-color;
+    -fx-effect: dropshadow(one-pass-box, black, 14, 0.0, 1, 0);
+    -fx-background-radius: 8;
+    -fx-tansition-duration: 0.8s;
+}
+
+.button:hover {
+    -fx-background-color: light-primary-color;
+    -fx-color: dark-primary-color;
+    -fx-text-fill: black;
+}
+
+
+.text-field:hover{
+    -fx-border-color: dark-primary-color;
+}
+
+.text-field:focus{
+    -fx-border-color: dark-primary-color;
+}
+
+.text-field:focused{
+    -fx-border-color: dark-primary-color;
+}
+
+.radio-button:selected{
+    -fx-background-fills: dark-primary-color;
+}
+
+.pane{
+    -fx-border-color: dark-primary-color;
+}
